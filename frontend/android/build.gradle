@@ -2,6 +2,7 @@
 
 buildscript {
     ext {
+        RNMapboxMapsImpl = "mapbox"
         buildToolsVersion = "33.0.0"
         minSdkVersion = 21
         compileSdkVersion = 33
@@ -18,4 +19,28 @@ buildscript {
         classpath("com.android.tools.build:gradle:7.3.1")
         classpath("com.facebook.react:react-native-gradle-plugin")
     }
+}
+
+allprojects {
+    project.ext.set("map_api_key", project.property('MAP_API_KEY'))
+    
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                // Do not change the username below.
+                // This should always be `mapbox` (not your username).
+                username = "mapbox"
+                // Use the secret token you stored in gradle.properties as the password
+                password = map_api_key
+            }
+        }
+    }
+
+    
 }

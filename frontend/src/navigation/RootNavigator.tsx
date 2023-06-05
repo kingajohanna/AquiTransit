@@ -2,6 +2,7 @@ import { createMaterialBottomTabNavigator } from "@react-navigation/material-bot
 import { HomeScreen } from "../screens/HomeScreen";
 import { SettingsScreen } from "../screens/SettingsScreen";
 import Icon from "react-native-vector-icons/Ionicons";
+import { MapScreen } from "../screens/MapScreen";
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -19,12 +20,12 @@ export const RootNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Settings"
-        component={SettingsScreen}
+        name="Map"
+        component={MapScreen}
         options={{
-          tabBarLabel: "Home",
+          tabBarLabel: "Map",
           tabBarIcon: ({ color }) => (
-            <Icon name="settings" color={color} size={26} />
+            <Icon name="map" color={color} size={26} />
           ),
         }}
       />

@@ -1,0 +1,29 @@
+{
+  "name": "2",
+  "stops": [
+    {
+      "point": { "longitude": 13.401321, "latitude": 42.344869 },
+      "name": "terminal bus"
+    },
+    {
+      "point": { "longitude": 13.402091, "latitude": 42.344139 },
+      "name": "via caldora"
+    },
+    {
+      "point": { "longitude": 13.397875, "latitude": 42.344139 },
+      "name": "viale colemaggio"
+    },
+    {
+      "point": { "longitude": 13.397312, "latitude": 42.345646 },
+      "name": "vale crispi"
+    },
+    {
+      "point": { "longitude": 13.395983, "latitude": 42.346492 },
+      "name": "via XX settembre lato Sant'Agostino"
+    },
+    {
+      "point": { "longitude": 13.39429, "latitude": 42.34725 },
+      "name": "via XX settembre lato San Francesco Di Paola"
+    }
+  ]
+}

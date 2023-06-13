@@ -1,4 +1,6 @@
-import { BusRoute } from "../../types/busLineTypes";
+import { BusRoute } from "../../types/BusRoute";
 import l2 from "./line2.json";
 
-export const line2: BusRoute = l2;
+const line2: BusRoute = l2;
+
+export const busRoutes: BusRoute[] = [line2];

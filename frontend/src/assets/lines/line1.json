@@ -3,217 +3,217 @@
   "stops": [
     {
       "point": {
-        "longitude": 13.40117, //(42.34454, 13.40117)
+        "longitude": 13.40117,
         "latitude": 42.34454
       },
       "name": "terminalbus 1" //1. terminalbus 1
     },
     {
       "point": {
-        "longitude": 13.41083, //(42.34608, 13.41083)
+        "longitude": 13.41083,
         "latitude": 42.34608
       },
       "name": "Via della Crocetta (lato edicola)" //2. Via della Crocetta (lato edicola)
     },
     {
       "point": {
-        "longitude": 13.41162, //(42.35191, 13.41162)
+        "longitude": 13.41162,
         "latitude": 42.35191
       },
       "name": "Piazzale Cencioni stadio gran sasso A " //3. Piazzale Cencioni stadio gran sasso A 
     },
     {
       "point": {
-        "longitude": 13.40742, //(42.35519, 13.40742)
+        "longitude": 13.40742,
         "latitude": 42.35519
       },
       "name": "Via Panella (lato caserma)" //4. Via Panella (lato caserma)
     },
     {
       "point": {
-        "longitude": 13.40493, //(42.35572, 13.40493)
+        "longitude": 13.40493,
         "latitude": 42.35572
       },
       "name": "Viale gran sasso (lato Stadio Fattori)" //5. Viale gran sasso (lato Stadio Fattori)
     },
     {
       "point": {
-        "longitude": 13.40281, //(42.35506, 13.40281)
+        "longitude": 13.40281,
         "latitude": 42.35506
       },
       "name": "Viale gran sasso (Fontana luminosa)" //6. Viale gran sasso (Fontana luminosa)
     },
     {
       "point": {
-        "longitude": 13.40389, //(42.35534, 13.40389)
+        "longitude": 13.40389,
         "latitude": 42.35534
       },
       "name": "Viale gran sasso lato castello" //7. Viale gran sasso lato castello
     },
     {
       "point": {
-        "longitude": 13.40387, //(42.35753, 13.40387)
+        "longitude": 13.40387,
         "latitude": 42.35753
       },
       "name": "Viale Croce Rossa bivio Via Moscardelli" //8. Viale Croce Rossa bivio Via Moscardelli
     },
     {
       "point": {
-        "longitude": 13.39877, //(42.35703, 13.39877)
+        "longitude": 13.39877,
         "latitude": 42.35703
       },
       "name": "Viale Croce Rossa bivio Monte Camicia " //9. Viale Croce Rossa bivio Monte Camicia 
     },
     {
       "point": {
-        "longitude": 13.39505, //(42.35670, 13.39505)
+        "longitude": 13.39505,
         "latitude": 42.35670
       },
       "name": "Viale Croce Rossa bivio valle Pretara" //10. Viale Croce Rossa bivio valle Pretara
     },
     {
       "point": {
-        "longitude": 13.39041, //(42.35704, 13.39041)
+        "longitude": 13.39041,
         "latitude": 42.35704
       },
       "name": "Viale Croce Rossa bivio Via San Sisto" //11. Viale Croce Rossa bivio Via San Sisto
     },
     {
       "point": {
-        "longitude": 13.38645, //(42.35836, 13.38645)
+        "longitude": 13.38645,
         "latitude": 42.35836
       },
       "name": "Via Betao Cesidio Santanza" //12. Via Betao Cesidio Santanza
     },
     {
       "point": {
-        "longitude": 13.38693, //(42.36117, 13.38693)
+        "longitude": 13.38693,
         "latitude": 42.36117
       },
       "name": "Via Betao Piazza Italia" //13. Via Betao Piazza Italia
     },
     {
       "point": {
-        "longitude": 13.38534, //(42.36254, 13.38534)
+        "longitude": 13.38534,
         "latitude": 42.36254
       },
       "name": "Via Paolucci San Barabara piazza Ayala" //14. Via Paolucci San Barabara piazza Ayala
     },
     {
       "point": {
-        "longitude": 13.38254, //(42.36406, 13.38254)
+        "longitude": 13.38254,
         "latitude": 42.36406
       },
       "name": "Via Amiternum incr. Piccini fronte bar Via Betao Piazza Italia" //15. Via Amiternum incr. Piccini fronte bar Via Betao Piazza Italia
     },
     {
       "point": {
-        "longitude": 13.37855, //(42.36547, 13.37855)
+        "longitude": 13.37855,
         "latitude": 42.36547
       },
       "name": "Via Amiternum lato via milonia" //16. Via Amiternum lato via milonia
     },
     {
       "point": {
-        "longitude": 13.37464, //(42.36629, 13.37464)
+        "longitude": 13.37464,
         "latitude": 42.36629
       },
       "name": "Via da vinci fronte regione abruzzo" //17. Via da vinci fronte regione abruzzo
     },
     {
       "point": {
-        "longitude": 13.37140, //(42.36608, 13.37140)
+        "longitude": 13.37140,
         "latitude": 42.36608
       },
       "name": "Via da vinci lato cinema fronte scuola" //18. Via da vinci lato cinema fronte scuola
     },
     {
       "point": {
-        "longitude": 13.36948, //(42.36577, 13.36948)
+        "longitude": 13.36948,
         "latitude": 42.36577
       },
       "name": "Via da vinci A24 fronte via carducci" //19. Via da vinci A24 fronte via carducci
     },
     {
       "point": {
-        "longitude": 13.36584, //(42.36703, 13.36584)
+        "longitude": 13.36584,
         "latitude": 42.36703
       },
       "name": "Via comunita europea lato via australia" //20. Via comunita europea lato via australia
     },
     {
       "point": {
-        "longitude": 13.36199, //(42.36923, 13.36199)
+        "longitude": 13.36199,
         "latitude": 42.36923
       },
       "name": "Via comunita europea lato via stati uniti" //21. Via comunita europea lato via stati uniti
     },
     {
       "point": {
-        "longitude": 13.35854, //(42.36968, 13.35854)
+        "longitude": 13.35854,
         "latitude": 42.36968
       },
       "name": "Via Manzoni fronte via madonna della grazie" //22. Via Manzoni fronte via madonna della grazie
     },
     {
       "point": {
-        "longitude": 13.35244, //(42.36782, 13.35244)
+        "longitude": 13.35244,
         "latitude": 42.36782
       },
       "name": "Universita lato universita" //23. Universita lato universita
     },
     {
       "point": {
-        "longitude": 13.34787, //(42.36770, 13.34787)
+        "longitude": 13.34787,
         "latitude": 42.36770
       },
       "name": "Via Vetoio fronte via Morgagni" //24. Via Vetoio fronte via Morgagni
     },
     {
       "point": {
-        "longitude": 13.34577, //(42.36630, 13.34577)
+        "longitude": 13.34577,
         "latitude": 42.36630
       },
       "name": "Via Borsellino lato via sotto la chiesa" //25. Via Borsellino lato via sotto la chiesa
     },
     {
       "point": {
-        "longitude": 13.34736, //(42.36459, 13.34736)
+        "longitude": 13.34736,
         "latitude": 42.36459
       },
       "name": "Via Falcone lato via delle svolte SP33" //26. Via Falcone lato via delle svolte SP33
     },
     {
       "point": {
-        "longitude": 13.35073, //(42.36256, 13.35073)
+        "longitude": 13.35073,
         "latitude": 42.36256
       },
       "name": "Via Falcone fermata lato Ovest SP33" //27. Via Falcone fermata lato Ovest SP33
     },
     {
       "point": {
-        "longitude": 13.35171, //(42.36036, 13.35171)
+        "longitude": 13.35171,
         "latitude": 42.36036
       },
       "name": "Via Falcone lato Reiss Romoli SP33" //28. Via Falcone lato Reiss Romoli SP33
     },
     {
       "point": {
-        "longitude": 13.35134, //(42.35845, 13.35134)
+        "longitude": 13.35134,
         "latitude": 42.35845
       },
       "name": "SS17 Deposito Ama Spa fronte Ama" //29. SS17 Deposito Ama Spa fronte Ama
     },
     {
       "point": {
-        "longitude": 13.34895, //(42.35207, 13.34895)
+        "longitude": 13.34895,
         "latitude": 42.35207
       },
       "name": "Confindustria Via Campo di Pile" //30. Confindustria Via Campo di Pile
     },
     {
       "point": {
-        "longitude": 13.34764, //(42.34968, 13.34764)
+        "longitude": 13.34764,
         "latitude": 42.34968
       },
       "name": "L'Aquilone" //31. L'Aquilone

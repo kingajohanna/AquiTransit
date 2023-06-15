@@ -42,6 +42,7 @@ project.xcworkspace
 /ReactAndroid/hermes-engine/.cxx/
 /template/android/app/build/
 /template/android/build/
+gradle.properties
 
 # Buck
 .buckd

@@ -13,18 +13,33 @@ enum Mode {
 export const getRouteDirection = async (startPoint: Point, endPoint: Point) => {
   const busline = getBusLine(startPoint, endPoint, busRoutes);
 
+  const walkingRoute = await getCoords(startPoint, endPoint, Mode.WALKING);
+
   if (busline) {
     const firstBusStop = busline?.stops[0].point;
     const lastBusStop = busline?.stops[busline.stops.length - 1].point;
 
+    const beforeBus = await getCoords(startPoint, firstBusStop!, Mode.WALKING);
+    const onBus = await getCoords(firstBusStop!, lastBusStop!, Mode.DRIVING);
+    const afterBus = await getCoords(lastBusStop!, endPoint, Mode.WALKING);
+
+    if (
+      walkingRoute.duration <
+      beforeBus.duration + onBus.duration + afterBus.duration
+    )
+      return {
+        beforeBus: walkingRoute.geometry.coordinates,
+        onBus: [],
+        afterBus: [],
+      } as Route;
     return {
-      beforeBus: await getCoords(startPoint, firstBusStop!, Mode.WALKING),
-      onBus: await getCoords(firstBusStop!, lastBusStop!, Mode.DRIVING),
-      afterBus: await getCoords(lastBusStop!, endPoint, Mode.WALKING),
+      beforeBus: beforeBus.geometry.coordinates,
+      onBus: onBus.geometry.coordinates,
+      afterBus: afterBus.geometry.coordinates,
     } as Route;
   } else {
     return {
-      beforeBus: await getCoords(startPoint, endPoint, Mode.WALKING),
+      beforeBus: walkingRoute.geometry.coordinates,
       onBus: [],
       afterBus: [],
     } as Route;
@@ -38,7 +53,7 @@ const getCoords = async (startPoint: Point, endPoint: Point, mode: string) => {
     );
 
     if (directionResponse.data?.code === "Ok") {
-      return directionResponse.data?.routes[0].geometry.coordinates;
+      return directionResponse.data?.routes[0];
     }
   } catch (error) {
     return [];

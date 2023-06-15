@@ -7,7 +7,7 @@ import { Point } from "../types/Point";
 import { getRouteDirection } from "../helpers/getRouteDirection";
 import { RouteDrawer } from "../components/RouteDrawer";
 import { Route } from "../types/Route";
-import { View } from "react-native";
+import { Platform, View } from "react-native";
 import { SearchBar } from "../components/SearchBar";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { FAB } from "react-native-paper";
@@ -27,10 +27,7 @@ export const MapScreen = () => {
   const camera = useRef<Camera>(null);
   const [location, setLocation] = useState<undefined | Point>(undefined);
   const [tripCoords, setTripCoords] = useState<Route | undefined>(undefined);
-  const [destination, setDest] = useState<Point | undefined>({
-    latitude: 42.35668427763645,
-    longitude: 13.389780751900076,
-  });
+  const [destination, setDest] = useState<Point | undefined>(undefined);
 
   useEffect(() => {
     getLocation();
@@ -127,7 +124,7 @@ export const MapScreen = () => {
           right: 0,
           borderRadius: 40,
           backgroundColor: Colors.darkPastelGreen,
-          bottom: 120,
+          bottom: Platform.OS === "ios" ? 120 : 80,
         }}
         icon="crosshairs-gps"
         onPress={() => {

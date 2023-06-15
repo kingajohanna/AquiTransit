@@ -45,12 +45,6 @@ export function getBusLine(
     }
   });
 
-  if (
-    shortestDistanceOnBus + shortestDistanceToTheBus >
-    1.5 * calculateDistanceBetweenPoints(startPoint, endPoint)
-  )
-    return null;
-
   return bestRoutePlanning;
 }
 

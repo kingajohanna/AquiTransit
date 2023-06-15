@@ -42,7 +42,6 @@ project.xcworkspace
 /ReactAndroid/hermes-engine/.cxx/
 /template/android/app/build/
 /template/android/build/
-gradle.properties
 
 # Buck
 .buckd
@@ -64,9 +63,11 @@ buck-out
 .idea
 .gradle
 local.properties
+gradle.properties
 *.iml
 !/android/README.md
 build/
+
 
 # Node
 node_modules

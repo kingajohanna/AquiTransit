@@ -1,5 +1,7 @@
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 import { HomeScreen } from "../screens/HomeScreen";
+import { SettingsScreen } from "../screens/SettingsScreen";
+import { FavoritesScreen } from "../screens/FavoritesScreen";
 import Icon from "react-native-vector-icons/Ionicons";
 import { MapScreen } from "../screens/MapScreen";
 import { Colors } from "../styles/colors";
@@ -35,6 +37,16 @@ export const RootNavigator = () => {
           tabBarLabel: "Map",
           tabBarIcon: ({ color }) => (
             <Icon name="map" color={color} size={26} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Favorites"
+        component={FavoritesScreen}
+        options={{
+          tabBarLabel: "Favorites",
+          tabBarIcon: ({ color }) => (
+            <Icon name="heart" color={color} size={26} />
           ),
         }}
       />

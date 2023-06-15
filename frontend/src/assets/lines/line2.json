@@ -2,28 +2,165 @@
   "name": "2",
   "stops": [
     {
-      "point": { "longitude": 13.401321, "latitude": 42.344869 },
-      "name": "terminal bus"
+      "point": {
+        "longitude": 13.34766,
+        "latitude": 42.34966
+      },
+      "name": "L'Aquilone"
     },
     {
-      "point": { "longitude": 13.402091, "latitude": 42.344139 },
-      "name": "via caldora"
+      "point": {
+        "longitude": 13.34890,
+        "latitude": 42.35205
+      },
+      "name": "via campo di Pile lato Optimes"
     },
     {
-      "point": { "longitude": 13.397875, "latitude": 42.344139 },
-      "name": "viale colemaggio"
+      "point": {
+        "longitude": 13.35167,
+        "latitude": 42.35844
+      },
+      "name": "SS17 Deposito Ama Spa lato Ama"
     },
     {
-      "point": { "longitude": 13.397312, "latitude": 42.345646 },
-      "name": "vale crispi"
+      "point": {
+        "longitude": 13.35946,
+        "latitude": 42.35936
+      },
+      "name": "centi colella piazzale"
     },
     {
-      "point": { "longitude": 13.395983, "latitude": 42.346492 },
-      "name": "via XX settembre lato Sant'Agostino"
+      "point": {
+        "longitude": 13.36465,
+        "latitude": 42.35788
+      },
+      "name": "ITALTEL AQ/2A"
     },
     {
-      "point": { "longitude": 13.39429, "latitude": 42.34725 },
-      "name": "via XX settembre lato San Francesco Di Paola"
+      "point": {
+        "longitude": 13.36853,
+        "latitude": 42.35833
+      },
+      "name": "via mulino Pile lato Spaziani"
+    },
+    {
+      "point": {
+        "longitude": 13.36862,
+        "latitude": 42.35454
+      },
+      "name": "Variante Pile Via Farroni lato Pertini"
+    },
+    {
+      "point": {
+        "longitude": 13.36991,
+        "latitude": 42.35341
+      },
+      "name": "Mazzini fronte Variante Pile Via Farroni"
+    },
+    {
+      "point": {
+        "longitude": 13.37519,
+        "latitude": 42.35373
+      },
+      "name": "Variante Pile Via Farroni Fronte Carabba"
+    },
+    {
+      "point": {
+        "longitude": 13.38072,
+        "latitude": 42.35316
+      },
+      "name": "Via Pile Coan Dopo Rotonda"
+    },
+    {
+      "point": {
+        "longitude": 13.38413,
+        "latitude": 42.35217
+      },
+      "name": "Via Pile fronte Corte Appello"
+    },
+    {
+      "point": {
+        "longitude": 13.38499,
+        "latitude": 42.35143
+      },
+      "name": "Piazzale Stazione FS"
+    },
+    {
+      "point": {
+        "longitude": 13.38501,
+        "latitude": 42.35219
+      },
+      "name": "Viale XXV Aprile fronte Corte Appello"
+    },
+    {
+      "point": {
+        "longitude": 13.38686,
+        "latitude": 42.35451
+      },
+      "name": "Viale XXV Aprile fronte Via Carabba"
+    },
+    {
+      "point": {
+        "longitude": 13.38963,
+        "latitude": 42.35435
+      },
+      "name": "Via XX Settembre lato Tribunale"
+    },
+    {
+      "point": {
+        "longitude": 13.39040,
+        "latitude": 42.35255
+      },
+      "name": "Via XX Settembre lato Villa Gioia"
+    },
+    {
+      "point": {
+        "longitude": 13.39216,
+        "latitude": 42.35029
+      },
+      "name": "Via XX Settembre Fontesecco lato Rivera"
+    },
+    {
+      "point": {
+        "longitude": 13.39431,
+        "latitude": 42.34713
+      },
+      "name": "Via XX Settembre Lato via Sant'Andrea"
+    },
+    {
+      "point": {
+        "longitude": 13.39657,
+        "latitude": 42.34624
+      },
+      "name": "Via XX Settembre lato Parco della Memoria"
+    },
+    {
+      "point": {
+        "longitude": 13.39703,
+        "latitude": 42.34534
+      },
+      "name": "Viale Crispi lato Parco della Memoria"
+    },
+    {
+      "point": {
+        "longitude": 13.39812,
+        "latitude": 42.34404
+      },
+      "name": "Viale Colemaggio fronte Emiciclo Regione"
+    },
+    {
+      "point": {
+        "longitude": 13.40212,
+        "latitude": 42.34416
+      },
+      "name": "Viale Caldora lato Colemaggio"
+    },
+    {
+      "point": {
+        "longitude": 13.40111,
+        "latitude": 42.34450
+      },
+      "name": "terminalbus"
     }
   ]
 }

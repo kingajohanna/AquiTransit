@@ -24,11 +24,7 @@ export const RootNavigator = () => {
         name="Map"
         component={MapScreen}
         options={{
-<<<<<<< HEAD
-          tabBarLabel: "Settings",
-=======
           tabBarLabel: "Map",
->>>>>>> 1147fece9ceeaf90eb5cb9e250d740db87021096
           tabBarIcon: ({ color }) => (
             <Icon name="map" color={color} size={26} />
           ),

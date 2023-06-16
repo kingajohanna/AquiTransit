@@ -15,14 +15,7 @@ export default class FavoriteStore {
   }
 
   addFavStop(stopName: string) {
-    let includes = false;
-    this.favorites.map((s) => {
-      if (s === stopName) includes = true;
-    });
-
-    if (!includes) {
-      this.favorites.push(stopName);
-    }
+    this.favorites.push(stopName);
   }
 
   removeFavStop(stopName: string) {

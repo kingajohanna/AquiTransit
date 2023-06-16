@@ -24,7 +24,7 @@ export const FavoritesScreen = observer(() => {
     setData(
       unsortedData.sort((a, b) => a.routeName.localeCompare(b.routeName))
     );
-  }, [favoriteStore.favorites]);
+  }, [favoriteStore.favorites.length]);
 
   const groupStops = (rawStopData: StopData[]) => {
     const names: string[] = [];

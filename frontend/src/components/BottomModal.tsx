@@ -41,15 +41,17 @@ export const BottomModal: React.FC<SearchModalProps> = ({
       ref={refRBSheet}
       closeOnDragDown={false}
       closeOnPressMask={true}
-      height={60}
       customStyles={{
+        draggableIcon: {
+          backgroundColor: "#000",
+        },
         container: {
+          height: 230,
           borderTopWidth: 3,
           borderTopLeftRadius: 15,
           borderTopRightRadius: 15,
           padding: 20,
           paddingBottom: 5,
-          flex: 1,
           backgroundColor: Colors.auth_stack_bg,
           borderColor: Colors.auth_stack_bg,
         },

@@ -12,6 +12,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		296F197D2A3B88ED00E2546E /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = E4C38AB74542285EECABA68E /* Mapbox */; };
+		296F197E2A3B88ED00E2546E /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 56EC44C0BD3A9022B62FEAFA /* Mapbox */; };
 		299564572A20DB1B0052A3E8 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 299564472A20DB1A0052A3E8 /* Fontisto.ttf */; };
 		299564582A20DB1B0052A3E8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 299564482A20DB1A0052A3E8 /* Octicons.ttf */; };
 		299564592A20DB1B0052A3E8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 299564492A20DB1A0052A3E8 /* Feather.ttf */; };
@@ -83,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296F197E2A3B88ED00E2546E /* Mapbox in Frameworks */,
 				7699B88040F8A987B510C191 /* libPods-AquiTransit-AquiTransitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296F197D2A3B88ED00E2546E /* Mapbox in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-AquiTransit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,7 +574,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N3Q43657S2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AquiTransit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -602,7 +606,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N3Q43657S2;
 				INFOPLIST_FILE = AquiTransit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

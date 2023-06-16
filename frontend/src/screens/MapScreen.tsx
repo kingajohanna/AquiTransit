@@ -17,6 +17,8 @@ import {
   CameraRef,
 } from "@rnmapbox/maps/lib/typescript/components/Camera";
 import { Colors } from "../styles/colors";
+import RBSheet from "react-native-raw-bottom-sheet";
+import { BottomModal } from "../components/BottomModal";
 
 const camplusPos: Point = { longitude: 13.395538, latitude: 42.34656 };
 const forteSpagnoloPos: Point = { longitude: 13.404768, latitude: 42.355627 };
@@ -25,6 +27,8 @@ const mockPos = forteSpagnoloPos;
 
 export const MapScreen = () => {
   const camera = useRef<Camera>(null);
+  const refRBSheet = useRef() as React.MutableRefObject<RBSheet>;
+
   const [location, setLocation] = useState<undefined | Point>(undefined);
   const [tripCoords, setTripCoords] = useState<Route | undefined>(undefined);
   const [destination, setDest] = useState<Point | undefined>(undefined);
@@ -57,9 +61,14 @@ export const MapScreen = () => {
     }
   };
 
+  const openTimetable = () => {
+    refRBSheet.current!.open();
+  };
+
   return (
     <>
       <View style={{ flex: 1 }}>
+        {/* route planning */}
         <Mapbox.MapView
           style={{ flex: 1 }}
           onPress={(event) => {
@@ -73,6 +82,7 @@ export const MapScreen = () => {
             });
           }}
         >
+          {/* userLocation pin */}
           {location && (
             <>
               <MapPin
@@ -89,7 +99,7 @@ export const MapScreen = () => {
               />
             </>
           )}
-
+          {/* bus stops */}
           {busRoutes.map((route) =>
             route.stops.map((stop, index) => {
               return (
@@ -98,10 +108,12 @@ export const MapScreen = () => {
                   id={stop.name}
                   point={stop.point}
                   type={PinType.BUS_STATION}
+                  onPress={openTimetable}
                 />
               );
             })
           )}
+          {/* destination pin */}
           {destination && (
             <MapPin
               id="destination"
@@ -110,13 +122,14 @@ export const MapScreen = () => {
               onPress={planRoute}
             />
           )}
-
           {tripCoords && <RouteDrawer route={tripCoords} />}
         </Mapbox.MapView>
       </View>
+
       <View style={{ position: "absolute", top: 50, alignSelf: "center" }}>
         <SearchBar setLocation={setDestination} />
       </View>
+
       <FAB
         style={{
           position: "absolute",
@@ -132,6 +145,8 @@ export const MapScreen = () => {
         }}
         color={Colors.darkGreen}
       />
+
+      <BottomModal refRBSheet={refRBSheet} data={""} />
     </>
   );
 };

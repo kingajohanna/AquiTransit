@@ -13,7 +13,7 @@ interface Props {
   id: string;
   point: Point;
   type: PinType;
-  onPress?: (destination: Point) => Promise<void>;
+  onPress?: Function;
 }
 
 export const MapPin: React.FC<Props> = (props) => {

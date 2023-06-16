@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  StyleSheet,
-  View,
-  SafeAreaView,
-  ViewProps,
-  StatusBar,
-} from "react-native";
+import { StyleSheet, View, SafeAreaView, ViewProps } from "react-native";
 import { Colors } from "../theme/colors";
 
 export const ScreenBackground: React.FC<ViewProps> = (props) => {

@@ -1,13 +1,13 @@
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
-import { HomeScreen } from "../screens/HomeScreen";
+
 import { SettingsScreen } from "../screens/SettingsScreen";
 import { FavoritesScreen } from "../screens/FavoritesScreen";
 import Icon from "react-native-vector-icons/Ionicons";
 import { MapScreen } from "../screens/MapScreen";
-import { Colors } from "../styles/colors";
 
 import { StyleSheet } from "react-native";
 import { androidBottomPadding } from "../utils/androidHelper";
+import { Colors } from "../theme/colors";
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -16,8 +16,8 @@ export const RootNavigator = () => {
     <Tab.Navigator
       initialRouteName="Map"
       barStyle={styles.tabBar}
-      activeColor={Colors.neonGreen}
-      inactiveColor={Colors.mediumGreen}
+      activeColor={Colors.active_icon}
+      inactiveColor={Colors.non_active_icon}
       shifting
     >
       <Tab.Screen
@@ -60,10 +60,10 @@ const styles = StyleSheet.create({
     position: "absolute",
     borderWidth: 0.5,
     borderBottomWidth: 1,
-    backgroundColor: Colors.darkGreen,
+    backgroundColor: Colors.bottom_top_bar,
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
-    borderColor: Colors.darkGreen,
+    borderColor: Colors.bottom_top_bar,
     overflow: "hidden",
     paddingBottom: androidBottomPadding,
   },

@@ -13,7 +13,6 @@ export function getBusLine(
   busRoutes: BusRoute[]
 ): BusRoute | null {
   let bestRoutePlanning: BusRoute | null = null;
-  let shortestDistanceOnBus = Infinity;
   let shortestDistanceToTheBus = Infinity;
 
   busRoutes.map((busRoute) => {
@@ -27,15 +26,9 @@ export function getBusLine(
       endStop.index !== -1 &&
       startStop.index < endStop.index
     ) {
-      const distance = calculateDistanceBetweenBusStops(
-        stops,
-        startStop.index,
-        endStop.index
-      );
       const distanceToTheStops = startStop.distance + endStop.distance;
 
       if (distanceToTheStops <= shortestDistanceToTheBus) {
-        shortestDistanceOnBus = distance;
         shortestDistanceToTheBus = distanceToTheStops;
         bestRoutePlanning = {
           name: busRoute.name,

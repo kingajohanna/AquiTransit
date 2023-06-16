@@ -6,7 +6,6 @@ import {
   View,
   ViewProps,
 } from "react-native";
-
 import { Colors } from "react-native/Libraries/NewAppScreen";
 
 type SectionProps = {

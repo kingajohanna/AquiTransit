@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { View, TextInput, Text, Pressable } from "react-native";
-
+import { View, TextInput, Pressable } from "react-native";
 import axios from "axios";
 import { MAP_API_KEY } from "@env";
-
 import { Card, Menu } from "react-native-paper";
 import { Point } from "../types/Point";
 import Icon from "react-native-vector-icons/Ionicons";

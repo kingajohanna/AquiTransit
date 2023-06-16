@@ -4,7 +4,7 @@ import MapboxGL from "@rnmapbox/maps";
 import { RootNavigator } from "./src/navigation/RootNavigator";
 import { MAP_API_KEY } from "@env";
 import { Provider } from "react-native-paper";
-import { baseTheme } from "./src/styles/paperTheme";
+import { baseTheme } from "./src/theme/paperTheme";
 
 MapboxGL.setAccessToken(MAP_API_KEY);
 

@@ -11,14 +11,17 @@ import { Platform, StatusBar, View } from "react-native";
 import { SearchBar } from "../components/SearchBar";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { FAB } from "react-native-paper";
-import Icon from "react-native-vector-icons/MaterialIcons";
 import {
   Camera,
   CameraRef,
 } from "@rnmapbox/maps/lib/typescript/components/Camera";
-import { Colors } from "../styles/colors";
 import RBSheet from "react-native-raw-bottom-sheet";
 import { BottomModal } from "../components/BottomModal";
+import { Stop } from "../types/Stop";
+import { observer } from "mobx-react-lite";
+import { Colors } from "../theme/colors";
+import { getDirectionByStop } from "../helpers/getDirection";
+import { BusRoute } from "../types/BusRoute";
 
 const camplusPos: Point = { longitude: 13.395538, latitude: 42.34656 };
 const forteSpagnoloPos: Point = { longitude: 13.404768, latitude: 42.355627 };
@@ -32,6 +35,9 @@ export const MapScreen = () => {
   const [location, setLocation] = useState<undefined | Point>(undefined);
   const [tripCoords, setTripCoords] = useState<Route | undefined>(undefined);
   const [destination, setDest] = useState<Point | undefined>(undefined);
+  const [selectedStop, setSelectedStop] = useState<
+    { stop: Stop; route: BusRoute } | undefined
+  >(undefined);
 
   useEffect(() => {
     getLocation();
@@ -61,7 +67,8 @@ export const MapScreen = () => {
     }
   };
 
-  const openTimetable = () => {
+  const openTimetable = (stop: Stop, route: BusRoute) => {
+    setSelectedStop({ stop, route });
     refRBSheet.current!.open();
   };
 
@@ -108,7 +115,7 @@ export const MapScreen = () => {
                   id={stop.name}
                   point={stop.point}
                   type={PinType.BUS_STATION}
-                  onPress={openTimetable}
+                  onPress={() => openTimetable(stop, route)}
                 />
               );
             })
@@ -136,17 +143,17 @@ export const MapScreen = () => {
           margin: 16,
           right: 0,
           borderRadius: 40,
-          backgroundColor: Colors.darkPastelGreen,
+          backgroundColor: Colors.auth_stack_bg,
           bottom: Platform.OS === "ios" ? 120 : 80,
         }}
         icon="crosshairs-gps"
         onPress={() => {
           if (location) flyToCoords(location);
         }}
-        color={Colors.darkGreen}
+        color={Colors.bottom_top_bar}
       />
 
-      <BottomModal refRBSheet={refRBSheet} data={""} />
+      <BottomModal refRBSheet={refRBSheet} data={selectedStop} />
     </>
   );
 };

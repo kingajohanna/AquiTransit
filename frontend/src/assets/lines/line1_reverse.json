@@ -1,5 +1,6 @@
 {
   "name": "1_reverse", //from l'aquilone to terminalbus
+  "direction": "Terminalbus",
   "stops": [
     {
       "point": {
@@ -10,14 +11,14 @@
     },
     {
       "point": {
-        "longitude": 13.34920,
+        "longitude": 13.3492,
         "latitude": 42.35254
       },
       "name": "Via Campo di Pile lato Optimes" //2. Via Campo di Pile lato Optimes
     },
     {
       "point": {
-        "longitude": 13.35160,
+        "longitude": 13.3516,
         "latitude": 42.35844
       },
       "name": "SS17 Deposito Ama Spa lato Ama" //3. SS17 Deposito Ama Spa lato Ama
@@ -38,7 +39,7 @@
     },
     {
       "point": {
-        "longitude": 13.34710,
+        "longitude": 13.3471,
         "latitude": 42.36484
       },
       "name": "Via Falcone fronte via delle svolte SP33" //6. Via Falcone fronte via delle svolte SP33
@@ -60,7 +61,7 @@
     {
       "point": {
         "longitude": 13.35201,
-        "latitude": 42.36760
+        "latitude": 42.3676
       },
       "name": "Universita lato ospedale" //9. Universita lato ospedale
     },
@@ -200,7 +201,7 @@
     {
       "point": {
         "longitude": 13.40735,
-        "latitude": 42.35510
+        "latitude": 42.3551
       },
       "name": "Via Panella Lato Questura" //29. Via Panella Lato Questura
     },
@@ -213,7 +214,7 @@
     },
     {
       "point": {
-        "longitude": 13.41070,
+        "longitude": 13.4107,
         "latitude": 42.34648
       },
       "name": "Via della crocetta fronte edicola" //31. Via della crocetta fronte edicola
@@ -221,9 +222,9 @@
     {
       "point": {
         "longitude": 13.40111,
-        "latitude": 42.34450
+        "latitude": 42.3445
       },
-      "name": "Terminalbus 1" //31. Terminalbus 1
+      "name": "Terminalbus" //31. Terminalbus 1
     }
   ]
 }

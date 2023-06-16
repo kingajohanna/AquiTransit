@@ -1,18 +1,21 @@
 {
   "name": "1", //from terminalbus to l'aquilone
+  "direction": "L'Aquilone",
   "stops": [
     {
       "point": {
         "longitude": 13.40117,
         "latitude": 42.34454
       },
-      "name": "terminalbus 1" //1. terminalbus 1
+      "name": "Terminalbus", //1. terminalbus 1,
+      "times": ["12:20", "23:30", "12:20", "23:30", "12:20", "23:30"]
     },
     {
       "point": {
         "longitude": 13.41083,
         "latitude": 42.34608
       },
+      "times": ["12:20", "23:30", "12:20", "23:30", "12:20", "23:30"],
       "name": "Via della Crocetta (lato edicola)" //2. Via della Crocetta (lato edicola)
     },
     {
@@ -20,7 +23,7 @@
         "longitude": 13.41162,
         "latitude": 42.35191
       },
-      "name": "Piazzale Cencioni stadio gran sasso A " //3. Piazzale Cencioni stadio gran sasso A 
+      "name": "Piazzale Cencioni stadio gran sasso A " //3. Piazzale Cencioni stadio gran sasso A
     },
     {
       "point": {
@@ -62,12 +65,12 @@
         "longitude": 13.39877,
         "latitude": 42.35703
       },
-      "name": "Viale Croce Rossa bivio Monte Camicia " //9. Viale Croce Rossa bivio Monte Camicia 
+      "name": "Viale Croce Rossa bivio Monte Camicia " //9. Viale Croce Rossa bivio Monte Camicia
     },
     {
       "point": {
         "longitude": 13.39505,
-        "latitude": 42.35670
+        "latitude": 42.3567
       },
       "name": "Viale Croce Rossa bivio valle Pretara" //10. Viale Croce Rossa bivio valle Pretara
     },
@@ -122,7 +125,7 @@
     },
     {
       "point": {
-        "longitude": 13.37140,
+        "longitude": 13.3714,
         "latitude": 42.36608
       },
       "name": "Via da vinci lato cinema fronte scuola" //18. Via da vinci lato cinema fronte scuola
@@ -165,14 +168,14 @@
     {
       "point": {
         "longitude": 13.34787,
-        "latitude": 42.36770
+        "latitude": 42.3677
       },
       "name": "Via Vetoio fronte via Morgagni" //24. Via Vetoio fronte via Morgagni
     },
     {
       "point": {
         "longitude": 13.34577,
-        "latitude": 42.36630
+        "latitude": 42.3663
       },
       "name": "Via Borsellino lato via sotto la chiesa" //25. Via Borsellino lato via sotto la chiesa
     },

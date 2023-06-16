@@ -7,7 +7,7 @@ import { Point } from "../types/Point";
 import { getRouteDirection } from "../helpers/getRouteDirection";
 import { RouteDrawer } from "../components/RouteDrawer";
 import { Route } from "../types/Route";
-import { Platform, View } from "react-native";
+import { Platform, StatusBar, View } from "react-native";
 import { SearchBar } from "../components/SearchBar";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { FAB } from "react-native-paper";

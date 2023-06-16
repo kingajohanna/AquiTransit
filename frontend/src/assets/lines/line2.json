@@ -1,5 +1,6 @@
 {
   "name": "2",
+  "direction": "Terminalbus",
   "stops": [
     {
       "point": {
@@ -10,7 +11,7 @@
     },
     {
       "point": {
-        "longitude": 13.34890,
+        "longitude": 13.3489,
         "latitude": 42.35205
       },
       "name": "via campo di Pile lato Optimes"
@@ -108,7 +109,7 @@
     },
     {
       "point": {
-        "longitude": 13.39040,
+        "longitude": 13.3904,
         "latitude": 42.35255
       },
       "name": "Via XX Settembre lato Villa Gioia"
@@ -158,9 +159,9 @@
     {
       "point": {
         "longitude": 13.40111,
-        "latitude": 42.34450
+        "latitude": 42.3445
       },
-      "name": "terminalbus"
+      "name": "Terminalbus"
     }
   ]
 }

@@ -21,15 +21,16 @@ export const RootNavigator = () => {
       shifting
     >
       <Tab.Screen
-        name="Home"
-        component={HomeScreen}
+        name="Favorites"
+        component={FavoritesScreen}
         options={{
-          tabBarLabel: "Home",
+          tabBarLabel: "Favorites",
           tabBarIcon: ({ color }) => (
-            <Icon name="home" color={color} size={26} />
+            <Icon name="heart" color={color} size={26} />
           ),
         }}
       />
+
       <Tab.Screen
         name="Map"
         component={MapScreen}
@@ -41,12 +42,12 @@ export const RootNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Favorites"
-        component={FavoritesScreen}
+        name="Settings"
+        component={SettingsScreen}
         options={{
-          tabBarLabel: "Favorites",
+          tabBarLabel: "Settings",
           tabBarIcon: ({ color }) => (
-            <Icon name="heart" color={color} size={26} />
+            <Icon name="settings" color={color} size={26} />
           ),
         }}
       />

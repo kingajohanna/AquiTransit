@@ -1,138 +1,139 @@
 {
-	"name": "2",
-	"stops": [
-		{
-			"point": {
-				"longitude": 13.40111,
-				"latitude": 42.34450
-			},
-			"name": "terminal bus"
-		},
-		{
-			"point": {
-				"longitude": 13.40190,
-				"latitude": 42.34360
-			},
-			"name": "via caldora fronte colemaggio"
-		},
-		{
-			"point": {
-				"longitude": 13.39779,
-				"latitude": 42.34416
-			},
-			"name": "viale colemaggio lato emiciclo Regione"
-		},
-		{
-			"point": {
-				"longitude": 13.39741,
-				"latitude": 42.34574
-			},
-			"name": "vale crispi lato emiciclo regionale"
-		},
-		{
-			"point": {
-				"longitude": 13.39616,
-				"latitude": 42.34648
-			},
-			"name": "via XX settembre lato Sant'Agostino"
-		},
-		{
-			"point": {
-				"longitude": 13.39430,
-				"latitude": 42.34726
-			},
-			"name": "via XX settembre lato San Francesco Di Paola"
-		},
-		{
-			"point": {
-				"longitude": 13.39244,
-				"latitude": 42.34982
-			},
-			"name": "via XX settembre fontesecco lato centro"
-		},
-		{
-			"point": {
-				"longitude": 13.39085,
-				"latitude": 42.35176
-			},
-			"name": "via XX settembre fronte villa gioia"
-		},
-		{
-			"point": {
-				"longitude": 13.39003,
-				"latitude": 42.35390
-			},
-			"name": "via XX settembre fronte tribunale"
-		},
-		{
-			"point": {
-				"longitude": 13.38055,
-				"latitude": 42.35971
-			},
-			"name": "Corrado IV Mercato Piazza d'armi"
-		},
-		{
-			"point": {
-				"longitude": 13.37729,
-				"latitude": 42.36090
-			},
-			"name": "SS80 Fronte Hotel MySuite lato Caserma"
-		},
-		{
-			"point": {
-				"longitude": 13.37480,
-				"latitude": 42.36178
-			},
-			"name": "SS80 Campomizzi"
-		},
-		{
-			"point": {
-				"longitude": 13.37096,
-				"latitude": 42.35961
-			},
-			"name": "SS17 Ovest lato ingresso A24"
-		},
-		{
-			"point": {
-				"longitude": 13.36954,
-				"latitude": 42.35934
-			},
-			"name": "SS17 Ovest lato via dei medici"
-		},
-		{
-			"point": {
-				"longitude": 13.36465,
-				"latitude": 42.35788
-			},
-			"name": "ITALTEL AQ/2A"
-		},
-		{
-			"point": {
-				"longitude": 13.35673,
-				"latitude": 42.36023
-			},
-			"name": "Poste centi colella SS17 Ovest"
-		},
-		{
-			"point": {
-				"longitude": 13.35128,
-				"latitude": 42.35849
-			},
-			"name": "SS17 Deposito Ama Spa Fronte Ama"
-		},
-		{
-			"point": {
-				"longitude": 13.34890,
-				"latitude": 42.35205
-			},
-			"name": "Confindustria via campo di Pile"
-		},
-		{
-			"point": {
-				"longitude": 13.34766,
-				"latitude": 42.34966
-			},
-			"name": "L'Aquilone"
-		}
-	]
+  "name": "2",
+  "direction": "L'Aquilone",
+  "stops": [
+    {
+      "point": {
+        "longitude": 13.40111,
+        "latitude": 42.3445
+      },
+      "name": "Terminalbus"
+    },
+    {
+      "point": {
+        "longitude": 13.4019,
+        "latitude": 42.3436
+      },
+      "name": "via caldora fronte colemaggio"
+    },
+    {
+      "point": {
+        "longitude": 13.39779,
+        "latitude": 42.34416
+      },
+      "name": "viale colemaggio lato emiciclo Regione"
+    },
+    {
+      "point": {
+        "longitude": 13.39741,
+        "latitude": 42.34574
+      },
+      "name": "vale crispi lato emiciclo regionale"
+    },
+    {
+      "point": {
+        "longitude": 13.39616,
+        "latitude": 42.34648
+      },
+      "name": "via XX settembre lato Sant'Agostino"
+    },
+    {
+      "point": {
+        "longitude": 13.3943,
+        "latitude": 42.34726
+      },
+      "name": "via XX settembre lato San Francesco Di Paola"
+    },
+    {
+      "point": {
+        "longitude": 13.39244,
+        "latitude": 42.34982
+      },
+      "name": "via XX settembre fontesecco lato centro"
+    },
+    {
+      "point": {
+        "longitude": 13.39085,
+        "latitude": 42.35176
+      },
+      "name": "via XX settembre fronte villa gioia"
+    },
+    {
+      "point": {
+        "longitude": 13.39003,
+        "latitude": 42.3539
+      },
+      "name": "via XX settembre fronte tribunale"
+    },
+    {
+      "point": {
+        "longitude": 13.38055,
+        "latitude": 42.35971
+      },
+      "name": "Corrado IV Mercato Piazza d'armi"
+    },
+    {
+      "point": {
+        "longitude": 13.37729,
+        "latitude": 42.3609
+      },
+      "name": "SS80 Fronte Hotel MySuite lato Caserma"
+    },
+    {
+      "point": {
+        "longitude": 13.3748,
+        "latitude": 42.36178
+      },
+      "name": "SS80 Campomizzi"
+    },
+    {
+      "point": {
+        "longitude": 13.37096,
+        "latitude": 42.35961
+      },
+      "name": "SS17 Ovest lato ingresso A24"
+    },
+    {
+      "point": {
+        "longitude": 13.36954,
+        "latitude": 42.35934
+      },
+      "name": "SS17 Ovest lato via dei medici"
+    },
+    {
+      "point": {
+        "longitude": 13.36465,
+        "latitude": 42.35788
+      },
+      "name": "ITALTEL AQ/2A"
+    },
+    {
+      "point": {
+        "longitude": 13.35673,
+        "latitude": 42.36023
+      },
+      "name": "Poste centi colella SS17 Ovest"
+    },
+    {
+      "point": {
+        "longitude": 13.35128,
+        "latitude": 42.35849
+      },
+      "name": "SS17 Deposito Ama Spa Fronte Ama"
+    },
+    {
+      "point": {
+        "longitude": 13.3489,
+        "latitude": 42.35205
+      },
+      "name": "Confindustria via campo di Pile"
+    },
+    {
+      "point": {
+        "longitude": 13.34766,
+        "latitude": 42.34966
+      },
+      "name": "L'Aquilone"
+    }
+  ]
 }

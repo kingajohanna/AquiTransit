@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
-import { Colors } from "../styles/colors";
+import { Colors } from "../theme/colors";
 
 export const BusStationIcon = () => {
   return (
